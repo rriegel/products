@@ -1,0 +1,37 @@
+{
+  "name": "sdcproducts",
+  "version": "1.0.0",
+  "description": "products endpoints for projectCatwalk",
+  "main": "start.js",
+  "scripts": {
+    "server-dev": "npx nodemon start.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rriegel/products.git"
+  },
+  "keywords": [
+    "SDC"
+  ],
+  "author": "Ryan Riegel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rriegel/products/issues"
+  },
+  "homepage": "https://github.com/rriegel/products#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "mysql": "^2.18.1",
+    "node": "^16.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
